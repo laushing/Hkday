@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/noseeMyMap"
+        android:layout_width="484dp"
+        android:layout_height="416dp"
+        android:layout_marginBottom="200dp"
+        android:contentDescription="Map of Hong Kong"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/hkmap" />
+
+    <ImageView
+        android:id="@+id/kowlooncity"
+        android:layout_width="118dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginBottom="170dp"
+        android:alpha="0.3"
+        android:contentDescription="kowlooncity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/noseeMyMap"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kowlooncity" />
+
+    <ImageView
+        android:id="@+id/happyvalley"
+        android:layout_width="148dp"
+        android:layout_height="143dp"
+
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="30dp"
+        android:alpha="0.3"
+        android:contentDescription="happyvalley"
+        app:layout_constraintBottom_toBottomOf="@+id/noseeMyMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/happyvalley" />
+
+    <ImageView
+        android:id="@+id/ngongping"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="80dp"
+        android:alpha="0.3"
+        android:contentDescription="ngongping"
+        app:layout_constraintBottom_toBottomOf="@+id/noseeMyMap"
+        app:layout_constraintStart_toStartOf="@+id/noseeMyMap"
+        app:srcCompat="@drawable/ngongping" />
+
+    <ImageView
+        android:id="@+id/paktamchung"
+        android:layout_width="111dp"
+        android:layout_height="117dp"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="-30dp"
+        android:alpha="0.3"
+        android:contentDescription="paktamchung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/noseeMyMap"
+        app:srcCompat="@drawable/paktamchung" />
+
+    <ImageView
+        android:id="@+id/sheungshui"
+        android:layout_width="137dp"
+        android:layout_height="71dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="90dp"
+        android:alpha="0.3"
+        android:contentDescription="sheungshui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/noseeMyMap"
+        app:srcCompat="@drawable/sheungshui" />
+
+    <ImageView
+        android:id="@+id/tuen_mun"
+        android:layout_width="99dp"
+        android:layout_height="82dp"
+
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="120dp"
+        android:alpha="0.3"
+        android:contentDescription="tuen_mun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/noseeMyMap"
+        app:srcCompat="@drawable/tuen_mun" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

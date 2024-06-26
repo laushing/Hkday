@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/userlocationblue"
+        android:layout_width="0dp"
+        android:layout_height="7dp"
+        android:alpha="0.3"
+        android:contentDescription="User Location"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/userlocation"
+        app:layout_constraintStart_toStartOf="@+id/userlocation"
+        app:layout_constraintTop_toTopOf="@+id/userlocation"
+        app:srcCompat="@drawable/blueuser"/>
+
+    <ImageView
+        android:id="@+id/userlocation"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="256dp"
+        android:contentDescription="User Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/userlocation1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

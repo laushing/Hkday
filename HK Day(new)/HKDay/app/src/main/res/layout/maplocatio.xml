@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/maplocation1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="396dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="476dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="288dp"
+        android:layout_marginBottom="524dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation4"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="332dp"
+        android:layout_marginBottom="444dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="316dp"
+        android:layout_marginBottom="396dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation6"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="360dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation7"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="248dp"
+        android:layout_marginBottom="412dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation8"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="420dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation9"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="248dp"
+        android:layout_marginBottom="444dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation10"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="524dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation11"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="612dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation12"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="548dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation13"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="452dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+
+    <ImageButton
+        android:id="@+id/maplocation14"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="236dp"
+        android:layout_marginBottom="372dp"
+        android:contentDescription="Open map location button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

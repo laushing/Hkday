@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Chat"
+        android:layout_width="489dp"
+        android:layout_height="591dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555"
+        app:srcCompat="@drawable/chatbox"
+        android:visibility="visible"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Imagetitle"
+        android:layout_width="166dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="160dp"
+        android:gravity="center"
+        android:text="Imagetitle"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/Chat" />
+
+    <ImageButton
+        android:id="@+id/MapPicture"
+        android:layout_width="154dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="96dp"
+        android:contentDescription="Map Picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Chat"
+        android:visibility="visible"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/MapInt"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="80dp"
+        android:text="TMapInt"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/MapPlan"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="280dp"
+        android:text="Plan?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/Chat" />
+
+    <Button
+        android:id="@+id/buttonInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="80dp"
+        android:text="buttonInt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/Chat" />
+</androidx.constraintlayout.widget.ConstraintLayout>
